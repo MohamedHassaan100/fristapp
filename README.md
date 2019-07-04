@@ -1,0 +1,2 @@
+# fristapp
+faculty management system
