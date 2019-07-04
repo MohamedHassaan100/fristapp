@@ -1,0 +1,108 @@
+
+/* Start Login Form   */
+
+.login{
+	width: 300px;
+	margin: 100px auto;
+}
+
+.login input{
+	margin-bottom: 10px;
+}
+
+.login .form-control{
+	background-color: #EAEAEA;
+}
+.login .btn{
+	background-color: #008dde;
+}
+
+/* End Login Form */
+
+/* Start BootStrap Edits */
+.navbar{
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.nav > li > a,
+.navbar-brand
+{
+	padding: 15px 12px;
+}
+.navbar-brand{
+	font-size: 1em;
+}
+.dropdown-menu {
+	color:#167ade;
+	background-color: #007bff;
+}
+/* End BootStrap Edits */
+
+/* Start Dashboard */
+.home-stats .stats{
+    background-color: #EEE;
+    border:1px solid #CCC;
+
+}
+.home-stats .stats span{
+
+	display: block;
+}
+
+.latest-users{
+	margin-bottom: 0px;
+}
+.latest-users li{
+	padding: 5px 0;
+	overflow: hidden;
+}
+/*End Dashboard */
+
+/* Start Member Page */
+
+h1{
+	font-size: 55px;
+	margin:40px 0;
+	font-weight: bold;
+	color: #3cab3e;
+}
+
+
+
+/* End Member Page */
+
+/******************AsteRisk******************/
+.form-control{
+	position: relative;
+}
+.asterisk{
+	font-size: 30px;
+	top: 8px;
+	right: 30px;
+	position: absolute;
+	color: red;
+}
+/****************SHOW PASSWORD **************/
+.show-pass{
+	position: absolute;
+	top: 60px;
+	right: -40px;
+}
+/***********    table in manage    ****************/
+.main-table{
+	box-shadow: 0 3px 10px #CCC;
+}
+.main-table td{
+	background-color: #FFF;
+    vertical-align: middle !important;
+}
+
+.main-table tr:first-child td{
+	background: #333;
+    color: #FFF;
+}
+
+.main-table .btn{
+	padding: 3px 10px;
+}
